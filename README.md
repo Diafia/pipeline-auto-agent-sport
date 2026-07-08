@@ -31,3 +31,34 @@ Assurez-vous d'avoir **Python 3.11+** installé sur votre machine.
    ```bash
    cd "C:\Users\utilisateur\Desktop\NEXA Digital School\STAGE SYSTEMICS 2026\last_one\autoagent_lastone\exercice_auto_agent"
    ```
+
+## 🏃 Comment lancer le projet ?
+
+Pour exécuter le pipeline multi-agents, ouvrez votre terminal (PowerShell ou Invite de commandes CMD) et exécutez les lignes de commande suivantes étape par étape :
+
+### 1. Positionnement et Activation de l'environnement
+
+```bash
+# Déplacement dans le dossier racine du projet
+cd "C:\Users\utilisateur\Desktop\NEXA Digital School\STAGE SYSTEMICS 2026\last_one\autoagent_lastone\exercice_auto_agent"
+
+# Activation de l'environnement virtuel (sélectionnez selon votre terminal)
+# Pour l'invite de commandes classique (CMD) :
+.venv\Scripts\activate.bat
+
+# OU pour PowerShell :
+.venv\Scripts\Activate.ps1
+
+```
+
+# Pour générer l'article et le site sur le SPORT :
+
+python pipeline_article.py sport
+
+# Pour générer l'article et le site sur la MÉDECINE :
+
+python pipeline_article.py medecine
+
+# Pour ouvrir directement le site web généré depuis le terminal :
+
+start site/index.html
